@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .backgroundImage {
+    background-image   : url("../images/hero-section-image.png");
+    background-size    : cover;
+    background-position: center;
+  }
+}
+
+@layer components {
+  .backgroundImage01 {
+    background-image   : url("../images/section-01-image.png");
+    background-size    : cover;
+    background-position: center;
+  }
+}
+
+@layer components {
+  .backgroundImage02 {
+    background-image   : url("../images/bottom-section-image.png");
+    background-size    : cover;
+    background-position: center;
+  }
+}
